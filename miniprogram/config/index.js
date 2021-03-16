@@ -1,7 +1,7 @@
 import path from 'path'
 
 const config = {
-  projectName: 'VillageLatrineImprovement',
+  projectName: 'medical-information-share',
   date: '2021-2-3',
   designWidth: 750,
   deviceRatio: {

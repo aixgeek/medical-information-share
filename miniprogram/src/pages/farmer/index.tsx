@@ -45,7 +45,7 @@ export default class Index extends React.Component<{}, State> {
         return (
             <CommonPage toast={toast}>
                 <FarmerFilter submitFilter={async (filter) => { this.setState({ fetchParams: { ...fetchParams, filter } }) }} />
-                <TotalBoard title='新增户厕' num={page.total} note='户厕信息建档入库数量共有(户)' url='/pages/farmer/curd/index?type=create' />
+                <TotalBoard title='新增病例' num={page.total} note='医疗病例建档入库数量共有(人)' url='/pages/farmer/curd/index?type=create' />
                 <CommonList
                     height='calc(100vh - 80rpx - 320rpx)'
                     fetchParams={fetchParams}

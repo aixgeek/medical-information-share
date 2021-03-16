@@ -1,8 +1,8 @@
 {
-  "name": "village-latrine-improvement",
+  "name": "medical-information-share",
   "version": "1.0.0",
   "private": true,
-  "description": "village-latrine-improvement",
+  "description": "medical-information-share",
   "templateInfo": {
     "name": "default",
     "typescript": true,

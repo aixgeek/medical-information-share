@@ -6,7 +6,6 @@ import { Toast } from '@/types/common'
 import { AppContext } from '@/config/context'
 import CommonPage from '@/components/Common/Page'
 import Copyright from '@/components/Copyright'
-import { getDefaultHome } from "./service"
 import "./index.scss"
 
 const Index: React.FC = () => {

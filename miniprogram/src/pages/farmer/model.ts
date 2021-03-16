@@ -46,14 +46,6 @@ export const Descriptor = {
     },
     obj: { type: 'string', required: true },
     toiletChange: { type: 'string', required: true },
-    committee: {
-        type: 'object',
-        required: true,
-        fields: {
-            _id: { type: 'string', required: true },
-            name: { type: 'string', required: true },
-        }
-    },
     group: { type: 'string', required: true },
     location: {
         type: 'object',

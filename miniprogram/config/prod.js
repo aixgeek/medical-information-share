@@ -3,7 +3,7 @@ module.exports = {
     NODE_ENV: '"production"'
   },
   defineConstants: {
-    CLOUD_ENV: '"jason-dev-0g7rh4rp1132a341"'
+    CLOUD_ENV: '"code-island-test-492bc8"'
   },
   mini: {
     webpackChain(chain) {

@@ -3,12 +3,11 @@ import Schema, { Rules } from 'async-validator'
 import { FetchParams, Page } from '@/types/common'
 import { AppContextType } from '@/config/context'
 import { UpdateParams, AddParams } from '@/config/common'
-import { FARMER_READ } from '@/config/permission'
 import { Farmer, Descriptor } from './model'
 
 const db = Taro.cloud.database()
 const _ = db.command
-const CollectionFarmer = db.collection('dongcheng_farmer')
+const CollectionFarmer = db.collection('farmer')
 
 export const addOrUpdateFarmer = async (farmer: Farmer) => {
     try {
@@ -58,7 +57,6 @@ export const getFarmerByDepartment = async (id: string) => {
 export const getFarmerByPageAndFilter = async (fetchParams: FetchParams, fetchPage: Page, appContext: AppContextType) => {
     let { filter } = fetchParams
     let page = fetchPage
-    filter = { ...filter, ...FARMER_READ(appContext) }
     const res = (await CollectionFarmer
         .where(filter)
         .skip(page.current * page.size)
@@ -70,7 +68,6 @@ export const getFarmerByPageAndFilter = async (fetchParams: FetchParams, fetchPa
 
 export const getFarmerCountByFilter = async (fetchParams: FetchParams, appContext: AppContextType) => {
     let { filter } = fetchParams
-    filter = { ...filter, ...FARMER_READ(appContext) }
     const res = (await CollectionFarmer
         .where(filter)
         .count()).total
