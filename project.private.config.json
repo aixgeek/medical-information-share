@@ -1,0 +1,138 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/record/index",
+          "pathName": "pages/record/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/statistics/index",
+          "pathName": "pages/statistics/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/register/index",
+          "pathName": "pages/user/register/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/farmer/curd/index",
+          "pathName": "pages/farmer/curd/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/farmer/index",
+          "pathName": "pages/farmer/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/index",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/team/curd/index",
+          "pathName": "pages/team/curd/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/team/index",
+          "pathName": "pages/team/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/system/index",
+          "pathName": "pages/system/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/authorize",
+          "pathName": "pages/user/authorize",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/department/committee",
+          "pathName": "pages/department/committee",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/department/curd/committee",
+          "pathName": "pages/department/curd/committee",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/task/curd/index",
+          "pathName": "pages/task/curd/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/task/record/index",
+          "pathName": "pages/task/record/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/task/index",
+          "pathName": "pages/task/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/system/index",
+          "pathName": "pages/system/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/department/team",
+          "pathName": "pages/department/team",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/index",
+          "pathName": "pages/mine/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user/index",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/task/undo",
+          "pathName": "pages/task/undo",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
